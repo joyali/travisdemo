@@ -1,0 +1,11 @@
+User root
+Host t.tstoon.com
+Port 22
+StrictHostKeyChecking no
+IdentityFile ~/.ssh/id_rsa
+IdentitiesOnly yes
+Protocol 2
+Compression yes
+ServerAliveInterval 60
+ServerAliveCountMax 20
+LogLevel INFO
