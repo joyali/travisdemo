@@ -22,6 +22,12 @@ git push -u origin master
 4. 安装travis客户端 并登陆生成加密文件
 gem install travis
 //windows need : https://rubyinstaller.org/downloads/
+//centos need :  yum install ruby yum install rubygems
+faraday requires Ruby version >= 1.9.
+$ ./configure
+$ make
+$ sudo make install
+
 //自动登陆travis
 travis login --auto
 
